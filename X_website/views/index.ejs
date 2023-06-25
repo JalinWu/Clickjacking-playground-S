@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>X website</title>
+    </head>
+    <body>
+        <div>
+            <span><%= title %></span>
+            <button onclick="switchOpacity()">切換透明度</button>
+        </div>
+        <div>
+            <div style="">
+                <iframe 
+                    id="myIframe"
+                    src="http://127.0.0.1:3001" 
+                    title="an iframe of A_website"
+                    style="opacity: 0"
+                    allowfullscreen=true
+                    frameborder="1"
+                ></iframe>
+            </div>
+            <div style="position: fixed; left: 18px; top: 122px;pointer-events: none">
+                <button 
+                    onclick="onBtnClick()"
+                >
+                    點我抽獎
+                </button>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>
+
+<script>
+function onBtnClick() {
+    alert("X website: button click!");
+}
+
+function switchOpacity() {
+    document.getElementById("myIframe").style.opacity = 10 - document.getElementById("myIframe").style.opacity;
+}
+</script>

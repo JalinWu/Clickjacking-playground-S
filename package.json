@@ -1,0 +1,25 @@
+{
+  "name": "clickjacking",
+  "version": "1.0.0",
+  "description": "It's a teaching material for practicing Clickjacking, which is based on Node.js. Have fun and enjoy it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalinWu/Clickjacking-playground-S.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JalinWu/Clickjacking-playground-S/issues"
+  },
+  "homepage": "https://github.com/JalinWu/Clickjacking-playground-S#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

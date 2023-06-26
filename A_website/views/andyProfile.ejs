@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A website</title>
+    </head>
+    <body>
+        <h1>Andy Profile</h1>
+        <h4 style="font-style: italic">I love coding</h4>
+        <button onclick="onBtnClick()">給Andy一個讚！</button>
+        <p>有<span id="count">0</span>人按讚</p>
+        <h2 style="color:coral">興趣</h2>
+        <ul>
+            <li>音樂</li>
+            <li>電影</li>
+            <li>運動</li>
+        </ul>
+        <h2 style="color:cornflowerblue">專長</h2>
+        <ol>
+            <li style="font-weight: bold">javascript</li>
+            <li>python</li>
+            <li>C#</li>
+        </ol>
+        <img
+            src="https://www.oxxostudio.tw/img/articles/201405/about-me.jpg"
+            alt="這是圖片"
+            title="oxxo"
+        >
+        <h2>珍藏影片</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2l4x_TvBKiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+    </body>
+</html>
+
+<script>
+    let count = 0;
+    function onBtnClick() {
+        count++;
+        document.getElementById("count").innerHTML = count;
+        setTimeout(() => {
+            alert("謝謝你給Andy一個讚！");
+        }, 10);
+    }
+</script>

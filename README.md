@@ -4,7 +4,7 @@ It's a teaching material for practicing Clickjacking, which is based on Node.js.
 
 ## Screenshots
 
-![image](https://raw.githubusercontent.com/JalinWu/Clickjacking-playground/master/A_website/public/img/demo.png)
+![image](https://github.com/JalinWu/Clickjacking-playground-S/blob/master/A_website/public/img/demo.png)
 
 ## Usage
 

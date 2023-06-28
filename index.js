@@ -11,7 +11,7 @@ const addSecurityHeaders = function(req, res, next) {
 
 
 
-  
+
   next();     
 }
 

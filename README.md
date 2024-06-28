@@ -16,7 +16,9 @@ $ npm install
 # Run with Nodemon
 $npm run dev
 
-# Visit A_website       - http://127.0.0.1:3001
-# Visit Andy Profile    - http://127.0.0.1:3001/andyProfile
-# Visit X_website       - http://127.0.0.1:9999
+# Visit A_website       - http://localhost:3001
+# Visit Andy Profile    - http://localhost:3001/andyProfile
+# Visit X_website       - http://localhost:9999
+
+# If page not expected, open a browser in private
 ```
